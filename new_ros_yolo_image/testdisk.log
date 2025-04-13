@@ -1,0 +1,2168 @@
+
+
+Sat Dec 16 20:31:29 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-89-generic (#99~20.04.1-Ubuntu SMP Thu Nov 2 15:16:47 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'LC_CTYPE=en_US.UTF-8;LC_NUMERIC=ko_KR.UTF-8;LC_TIME=ko_KR.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=ko_KR.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=ko_KR.UTF-8;LC_NAME=ko_KR.UTF-8;LC_ADDRESS=ko_KR.UTF-8;LC_TELEPHONE=ko_KR.UTF-8;LC_MEASUREMENT=ko_KR.UTF-8;LC_IDENTIFICATION=ko_KR.UTF-8'.
+
+
+Sat Dec 16 20:31:31 2023
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-89-generic (#99~20.04.1-Ubuntu SMP Thu Nov 2 15:16:47 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop9 - 0 B - 0 sectors (RO), sector size=512
+Hard disk list
+Disk /dev/loop0 - 4096 B - 8 sectors (RO), sector size=512
+Disk /dev/loop1 - 318 MB / 303 MiB - 621208 sectors (RO), sector size=512
+Disk /dev/loop10 - 48 MB / 45 MiB - 94064 sectors (RO), sector size=512
+Disk /dev/loop11 - 12 MB / 12 MiB - 25240 sectors (RO), sector size=512
+Disk /dev/loop12 - 96 MB / 91 MiB - 187776 sectors (RO), sector size=512
+Disk /dev/loop13 - 458 MB / 437 MiB - 895688 sectors (RO), sector size=512
+Disk /dev/loop14 - 521 MB / 496 MiB - 1017608 sectors (RO), sector size=512
+Disk /dev/loop15 - 833 MB / 795 MiB - 1628216 sectors (RO), sector size=512
+Disk /dev/loop16 - 66 MB / 63 MiB - 129976 sectors (RO), sector size=512
+Disk /dev/loop17 - 42 MB / 40 MiB - 83672 sectors (RO), sector size=512
+Disk /dev/loop18 - 77 MB / 74 MiB - 151784 sectors (RO), sector size=512
+Disk /dev/loop19 - 67 MB / 63 MiB - 130888 sectors (RO), sector size=512
+Disk /dev/loop2 - 318 MB / 303 MiB - 621448 sectors (RO), sector size=512
+Disk /dev/loop3 - 77 MB / 73 MiB - 151352 sectors (RO), sector size=512
+Disk /dev/loop4 - 298 MB / 284 MiB - 582536 sectors (RO), sector size=512
+Disk /dev/loop5 - 363 MB / 346 MiB - 709280 sectors (RO), sector size=512
+Disk /dev/loop6 - 42 MB / 40 MiB - 83648 sectors (RO), sector size=512
+Disk /dev/loop7 - 366 MB / 349 MiB - 716176 sectors (RO), sector size=512
+Disk /dev/loop8 - 521 MB / 496 MiB - 1017816 sectors (RO), sector size=512
+Disk /dev/nvme0n1 - 1000 GB / 931 GiB - CHS 953869 64 32, sector size=512
+Disk /dev/nvme1n1 - 1000 GB / 931 GiB - CHS 953869 64 32, sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/nvme1n1 - 1000 GB / 931 GiB
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1953525167 (expected 1953525167)
+hdr_lba_start=34
+hdr_lba_end=1953525134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+check_part_gpt failed for partition
+ 2 P MS Reserved               206848     239615      32768 [Microsoft reserved partition]
+ 1 P EFI System                  2048     206847     204800 [EFI system partition]
+ 2 P MS Reserved               206848     239615      32768 [Microsoft reserved partition]
+ 3 P MS Data                   239616 1952442367 1952202752 [Basic data partition]
+     NTFS, blocksize=4096, 999 GB / 930 GiB
+ 4 P Windows Recovery Env  1952442368 1953521663    1079296
+ntfs_device_testdisk_io_ioctl() unimplemented
+
+
+dir_partition inode=5
+ 3 P MS Data                   239616 1952442367 1952202752 [Basic data partition]
+     NTFS, blocksize=4096, 999 GB / 930 GiB
+Directory /
+       5 dr-xr-xr-x     0      0         0 15-Sep-2023 10:36 .
+       5 dr-xr-xr-x     0      0         0 15-Sep-2023 10:36 ..
+ 1559121 dr-xr-xr-x     0      0         0 29-Aug-2023 11:45 $Recycle.Bin
+ 1203345 dr-xr-xr-x     0      0         0 28-Aug-2023 15:08 $SysReset
+    3463 dr-xr-xr-x     0      0         0 15-Sep-2023 10:37 $WinREAgent
+      64 dr-xr-xr-x     0      0         0 30-Jun-2021 20:05 Boot
+ 1559122 dr-xr-xr-x     0      0         0 28-Aug-2023 15:04 PerfLogs
+ 1559124 dr-xr-xr-x     0      0         0 11-Sep-2023 08:21 Program Files
+ 1559257 dr-xr-xr-x     0      0         0 11-Sep-2023 08:21 Program Files (x86)
+ 1559326 dr-xr-xr-x     0      0         0 28-Aug-2023 09:19 ProgramData
+ 1581543 dr-xr-xr-x     0      0         0 28-Aug-2023 15:07 Recovery
+  138702 dr-xr-xr-x     0      0         0 14-Sep-2023 21:26 System Volume Information
+ 1211761 dr-xr-xr-x     0      0         0 28-Aug-2023 15:46 Users
+ 1211689 dr-xr-xr-x     0      0         0 16-Sep-2023 00:41 Windows
+   32731 -r--r--r--     0      0      8192 30-Jun-2021 20:05 BOOTSECT.BAK
+     598 -r--r--r--     0      0     12288 12-Sep-2023 03:33 DumpStack.log.tmp
+   30922 -r--r--r--     0      0    436660 29-Jun-2021 08:43 bootmgr
+    2356 -r--r--r--     0      0 13700530176 16-Sep-2023 00:41 hiberfil.sys
+     669 -r--r--r--     0      0 5368709120 12-Sep-2023 03:33 pagefile.sys
+   52179 -r--r--r--     0      0  16777216 12-Sep-2023 03:33 swapfile.sys
+
+dir_partition inode=1581543
+ 3 P MS Data                   239616 1952442367 1952202752 [Basic data partition]
+     NTFS, blocksize=4096, 999 GB / 930 GiB
+Directory /Recovery
+ 1581543 dr-xr-xr-x     0      0         0 28-Aug-2023 15:07 .
+       5 dr-xr-xr-x     0      0         0 15-Sep-2023 10:36 ..
+ 1266114 dr-xr-xr-x     0      0         0 19-Mar-2022 16:54 OEM
+ 1581544 -r--r--r--     0      0      1070 28-Aug-2023 06:36 ReAgentOld.xml
+Directory /
+       5 dr-xr-xr-x     0      0         0 15-Sep-2023 10:36 .
+       5 dr-xr-xr-x     0      0         0 15-Sep-2023 10:36 ..
+ 1559121 dr-xr-xr-x     0      0         0 29-Aug-2023 11:45 $Recycle.Bin
+ 1203345 dr-xr-xr-x     0      0         0 28-Aug-2023 15:08 $SysReset
+    3463 dr-xr-xr-x     0      0         0 15-Sep-2023 10:37 $WinREAgent
+      64 dr-xr-xr-x     0      0         0 30-Jun-2021 20:05 Boot
+ 1559122 dr-xr-xr-x     0      0         0 28-Aug-2023 15:04 PerfLogs
+ 1559124 dr-xr-xr-x     0      0         0 11-Sep-2023 08:21 Program Files
+ 1559257 dr-xr-xr-x     0      0         0 11-Sep-2023 08:21 Program Files (x86)
+ 1559326 dr-xr-xr-x     0      0         0 28-Aug-2023 09:19 ProgramData
+ 1581543 dr-xr-xr-x     0      0         0 28-Aug-2023 15:07 Recovery
+  138702 dr-xr-xr-x     0      0         0 14-Sep-2023 21:26 System Volume Information
+ 1211761 dr-xr-xr-x     0      0         0 28-Aug-2023 15:46 Users
+ 1211689 dr-xr-xr-x     0      0         0 16-Sep-2023 00:41 Windows
+   32731 -r--r--r--     0      0      8192 30-Jun-2021 20:05 BOOTSECT.BAK
+     598 -r--r--r--     0      0     12288 12-Sep-2023 03:33 DumpStack.log.tmp
+   30922 -r--r--r--     0      0    436660 29-Jun-2021 08:43 bootmgr
+    2356 -r--r--r--     0      0 13700530176 16-Sep-2023 00:41 hiberfil.sys
+     669 -r--r--r--     0      0 5368709120 12-Sep-2023 03:33 pagefile.sys
+   52179 -r--r--r--     0      0  16777216 12-Sep-2023 03:33 swapfile.sys
+
+dir_partition inode=1559124
+ 3 P MS Data                   239616 1952442367 1952202752 [Basic data partition]
+     NTFS, blocksize=4096, 999 GB / 930 GiB
+Directory /Program Files
+ 1559124 dr-xr-xr-x     0      0         0 11-Sep-2023 08:21 .
+       5 dr-xr-xr-x     0      0         0 15-Sep-2023 10:36 ..
+ 1559125 dr-xr-xr-x     0      0         0 28-Aug-2023 15:04 Common Files
+   30911 dr-xr-xr-x     0      0         0 11-Sep-2023 08:21 Google
+ 1559190 dr-xr-xr-x     0      0         0 28-Aug-2023 15:05 Internet Explorer
+ 1572603 dr-xr-xr-x     0      0         0 28-Aug-2023 15:05 MSBuild
+   18019 dr-xr-xr-x     0      0         0 12-Sep-2023 04:21 Microsoft Update Health Tools
+ 1559193 dr-xr-xr-x     0      0         0 28-Aug-2023 15:04 ModifiableWindowsApps
+ 1572613 dr-xr-xr-x     0      0         0 28-Aug-2023 15:05 Reference Assemblies
+    1071 dr-xr-xr-x     0      0         0 28-Aug-2023 06:34 Uninstall Information
+ 1559194 dr-xr-xr-x     0      0         0 28-Aug-2023 09:19 Windows Defender
+ 1559196 dr-xr-xr-x     0      0         0 16-Sep-2023 00:41 Windows Defender Advanced Threat Protection
+ 1559199 dr-xr-xr-x     0      0         0 28-Aug-2023 15:04 Windows Mail
+ 1572622 dr-xr-xr-x     0      0         0 28-Aug-2023 15:05 Windows Media Player
+ 1559200 dr-xr-xr-x     0      0         0 28-Aug-2023 06:36 Windows NT
+ 1559202 dr-xr-xr-x     0      0         0 28-Aug-2023 15:05 Windows Photo Viewer
+ 1559203 dr-xr-xr-x     0      0         0 28-Aug-2023 15:04 Windows Sidebar
+ 1559206 dr-xr-xr-x     0      0         0 15-Sep-2023 13:12 WindowsApps
+ 1559212 dr-xr-xr-x     0      0         0 28-Aug-2023 15:04 WindowsPowerShell
+ 1555468 -r--r--r--     0      0       174 28-Aug-2023 15:03 desktop.ini
+Directory /
+       5 dr-xr-xr-x     0      0         0 15-Sep-2023 10:36 .
+       5 dr-xr-xr-x     0      0         0 15-Sep-2023 10:36 ..
+ 1559121 dr-xr-xr-x     0      0         0 29-Aug-2023 11:45 $Recycle.Bin
+ 1203345 dr-xr-xr-x     0      0         0 28-Aug-2023 15:08 $SysReset
+    3463 dr-xr-xr-x     0      0         0 15-Sep-2023 10:37 $WinREAgent
+      64 dr-xr-xr-x     0      0         0 30-Jun-2021 20:05 Boot
+ 1559122 dr-xr-xr-x     0      0         0 28-Aug-2023 15:04 PerfLogs
+ 1559124 dr-xr-xr-x     0      0         0 11-Sep-2023 08:21 Program Files
+ 1559257 dr-xr-xr-x     0      0         0 11-Sep-2023 08:21 Program Files (x86)
+ 1559326 dr-xr-xr-x     0      0         0 28-Aug-2023 09:19 ProgramData
+ 1581543 dr-xr-xr-x     0      0         0 28-Aug-2023 15:07 Recovery
+  138702 dr-xr-xr-x     0      0         0 14-Sep-2023 21:26 System Volume Information
+ 1211761 dr-xr-xr-x     0      0         0 28-Aug-2023 15:46 Users
+ 1211689 dr-xr-xr-x     0      0         0 16-Sep-2023 00:41 Windows
+   32731 -r--r--r--     0      0      8192 30-Jun-2021 20:05 BOOTSECT.BAK
+     598 -r--r--r--     0      0     12288 12-Sep-2023 03:33 DumpStack.log.tmp
+   30922 -r--r--r--     0      0    436660 29-Jun-2021 08:43 bootmgr
+    2356 -r--r--r--     0      0 13700530176 16-Sep-2023 00:41 hiberfil.sys
+     669 -r--r--r--     0      0 5368709120 12-Sep-2023 03:33 pagefile.sys
+   52179 -r--r--r--     0      0  16777216 12-Sep-2023 03:33 swapfile.sys
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 1000 GB / 931 GiB
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1953525167 (expected 1953525167)
+hdr_lba_start=34
+hdr_lba_end=1953525134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P EFI System                  2048    1050623    1048576 [EFI System Partition]
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+
+
+dir_partition inode=2
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+      11 drwx------     0      0     16384 29-Aug-2023 20:00 lost+found
+  524289 drwxr-xr-x     0      0      4096 13-Dec-2023 06:18 boot
+      12 -rw-------     0      0 2147483648 29-Aug-2023 20:00 swapfile
+ 53477377 drwxr-xr-x     0      0     12288 14-Dec-2023 06:57 etc
+ 13893633 drwxr-xr-x     0      0      4096  4-Oct-2023 14:01 media
+      13 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 bin
+ 37486593 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 dev
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 home
+      14 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 lib
+      15 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib32
+      16 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib64
+      17 lrwxrwxrwx     0      0        10 29-Aug-2023 20:00 libx32
+ 42991617 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 mnt
+ 33292289 drwxr-xr-x     0      0      4096 18-Sep-2023 15:37 opt
+ 47185921 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 proc
+ 25427969 drwx------     0      0      4096 31-Oct-2023 21:24 root
+ 27787265 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 run
+      18 lrwxrwxrwx     0      0         8 29-Aug-2023 20:00 sbin
+ 40108033 drwxr-xr-x     0      0      4096 22-Oct-2023 17:57 snap
+ 33554433 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 srv
+ 19136513 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 sys
+ 45613057 drwxrwxrwt     0      0     94208 16-Dec-2023 20:32 tmp
+ 1572865 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 usr
+ 27262977 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 var
+ 24903681 drwxrwxr-x     0      0      4096 29-Aug-2023 20:01 cdrom
+
+dir_partition inode=41156609
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 arrf
+
+dir_partition inode=41156610
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41943693
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+
+dir_partition inode=41944217
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script/ros_yolo_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 .
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 ..
+ 41944228 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:17 .git
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+
+dir_partition inode=41944217
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script/ros_yolo_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 .
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 ..
+ 41944228 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:17 .git
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+
+dir_partition inode=41943711
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script/ros_image
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 .
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 ..
+ 41943712 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 .git
+ 41943817 -rw-rw-r--  1000   1000        15 18-Sep-2023 15:59 README.md
+ 41943818 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 __pycache__
+ 41943820 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 cfg
+ 41943823 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 data
+ 41943825 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 dataset
+ 41943828 -rw-rw-r--  1000   1000      6371 18-Sep-2023 15:59 image_test.py
+ 41943829 -rw-rw-r--  1000   1000       869 18-Sep-2023 17:08 only_image_show.py
+ 41943830 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 pretrained
+ 41943833 -rw-rw-r--  1000   1000      2099 18-Sep-2023 15:59 ros_image_yolov8.py
+ 41943834 -rw-rw-r--  1000   1000      2447 18-Sep-2023 15:59 utils.py
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+Directory /home
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 arrf
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+      11 drwx------     0      0     16384 29-Aug-2023 20:00 lost+found
+  524289 drwxr-xr-x     0      0      4096 13-Dec-2023 06:18 boot
+      12 -rw-------     0      0 2147483648 29-Aug-2023 20:00 swapfile
+ 53477377 drwxr-xr-x     0      0     12288 14-Dec-2023 06:57 etc
+ 13893633 drwxr-xr-x     0      0      4096  4-Oct-2023 14:01 media
+      13 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 bin
+ 37486593 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 dev
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 home
+      14 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 lib
+      15 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib32
+      16 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib64
+      17 lrwxrwxrwx     0      0        10 29-Aug-2023 20:00 libx32
+ 42991617 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 mnt
+ 33292289 drwxr-xr-x     0      0      4096 18-Sep-2023 15:37 opt
+ 47185921 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 proc
+ 25427969 drwx------     0      0      4096 31-Oct-2023 21:24 root
+ 27787265 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 run
+      18 lrwxrwxrwx     0      0         8 29-Aug-2023 20:00 sbin
+ 40108033 drwxr-xr-x     0      0      4096 22-Oct-2023 17:57 snap
+ 33554433 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 srv
+ 19136513 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 sys
+ 45613057 drwxrwxrwt     0      0     94208 16-Dec-2023 20:32 tmp
+ 1572865 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 usr
+ 27262977 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 var
+ 24903681 drwxrwxr-x     0      0      4096 29-Aug-2023 20:01 cdrom
+
+
+dir_partition inode=2
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+      11 drwx------     0      0     16384 29-Aug-2023 20:00 lost+found
+  524289 drwxr-xr-x     0      0      4096 13-Dec-2023 06:18 boot
+      12 -rw-------     0      0 2147483648 29-Aug-2023 20:00 swapfile
+ 53477377 drwxr-xr-x     0      0     12288 14-Dec-2023 06:57 etc
+ 13893633 drwxr-xr-x     0      0      4096  4-Oct-2023 14:01 media
+      13 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 bin
+ 37486593 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 dev
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 home
+      14 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 lib
+      15 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib32
+      16 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib64
+      17 lrwxrwxrwx     0      0        10 29-Aug-2023 20:00 libx32
+ 42991617 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 mnt
+ 33292289 drwxr-xr-x     0      0      4096 18-Sep-2023 15:37 opt
+ 47185921 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 proc
+ 25427969 drwx------     0      0      4096 31-Oct-2023 21:24 root
+ 27787265 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 run
+      18 lrwxrwxrwx     0      0         8 29-Aug-2023 20:00 sbin
+ 40108033 drwxr-xr-x     0      0      4096 22-Oct-2023 17:57 snap
+ 33554433 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 srv
+ 19136513 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 sys
+ 45613057 drwxrwxrwt     0      0     94208 16-Dec-2023 20:32 tmp
+ 1572865 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 usr
+ 27262977 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 var
+ 24903681 drwxrwxr-x     0      0      4096 29-Aug-2023 20:01 cdrom
+
+dir_partition inode=41156609
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 arrf
+
+dir_partition inode=41156610
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41156652
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/Downloads
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41193523 -rw-rw-r--  1000   1000   1169261 17-Sep-2023 17:45 무력화 시뮬레이션 영상-경북대학교.mp4
+ 41164764 -rw-rw-r--  1000   1000      5843 19-Sep-2023 17:24 obstacle_avoidance.py
+ 41220436 -rw-rw-r--  1000   1000      3679 20-Sep-2023 21:57 path_planning_functions.py
+ 41157746 -rw-rw-r--  1000   1000  13705702 24-Sep-2023 19:35 drones-06-00308.pdf
+ 41164620 -rw-rw-r--  1000   1000    202354 31-Oct-2023 20:58 cupva-2.3.0-l4t.deb
+ 41203770 -rw-rw-r--  1000   1000   7030504 27-Sep-2023 17:54 anydesk_6.3.0-1_amd64.deb
+ 41159490 -rw-rw-r--  1000   1000  53345022  1-Oct-2023 19:13 신보사랑방_0910월 (1).pdf
+ 41195665 -rw-rw-r--  1000   1000     74622  4-Oct-2023 12:14 Confirmation_for_Booking_ID_#_1023014296.pdf
+ 41192652 -rw-rw-r--  1000   1000     11776  4-Oct-2023 16:09 논문지도교수추천서.hwp
+ 41193621 -rw-rw-r--  1000   1000    967168  4-Oct-2023 16:09 20210927_150115.hwp
+ 41204108 -rw-rw-r--  1000   1000    323573  9-Oct-2023 15:03 l_camera_information_for_tracking_and_striking_illega_drones.pdf
+ 41222544 -rw-rw-r--  1000   1000    479100 10-Oct-2023 00:02 _Thesis__Flight_guidance_algorithm_based_on_gimbal_camera_information_for_tracking_and_striking_illega_drones (1).pdf
+ 41227078 -rw-rw-r--  1000   1000     67316 10-Oct-2023 00:08 Turnitin_Originality_Report_2190388114.html
+ 41164569 -rw-rw-r--  1000   1000    380814 17-Oct-2023 17:29 DIFA 2023 부스배치도 및 참가기업 리스트.pdf
+ 41183813 -rw-r--r--  1000   1000      3018 19-Oct-2023 17:22 송영우202017_32622_1869636_no2.py
+ 41183818 -rw-r--r--  1000   1000       554 19-Oct-2023 17:22 송영우202017_32622_1869637_no3.py
+ 41183819 -rw-r--r--  1000   1000       216 19-Oct-2023 17:22 송영우202017_32622_1869638_no4.py
+ 41183832 -rw-r--r--  1000   1000      2728 19-Oct-2023 17:22 윤기범202234_69553_1860217_hw2.py
+ 41183867 -rw-r--r--  1000   1000       473 19-Oct-2023 17:22 김준수201750_29150_1858808_1 2017116750 김준수.py
+ 41183905 -rw-r--r--  1000   1000      1122 19-Oct-2023 17:22 김준수201750_29150_1858810_3 2017116750 김준수.py
+ 41183947 -rw-r--r--  1000   1000      1702 19-Oct-2023 17:22 이규민202238_70668_1851816_ROS__HW2.py
+ 41183960 -rw-r--r--  1000   1000       688 19-Oct-2023 17:22 이규민202238_70668_1851817_ROS__HW3.py
+ 41183973 -rw-r--r--  1000   1000      3616 19-Oct-2023 17:22 이진한202031_33065_1846336_Hw_2_2-1.py
+ 41185563 -rw-rw-r--  1000   1000   1830879 19-Oct-2023 17:29 ROS_HW2 (1).pdf
+ 41193196 -rw-rw-r--  1000   1000       514 19-Oct-2023 18:10 test case.txt
+ 41205492 -rw-rw-r--  1000   1000    593641 19-Oct-2023 21:12 KCI_FI002877031.pdf
+ 41206656 -rw-rw-r--  1000   1000    575629 19-Oct-2023 21:13 KCI_FI002729909.pdf
+ 41238556 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:22 matlab_R2023b_glnxa64
+ 41201348 -rw-rw-r--  1000   1000    588522 24-Oct-2023 16:58 FA7-1.pdf
+ 41195314 -rw-rw-r--  1000   1000    145884 31-Oct-2023 22:35 sdkml3_jetpack_512.json
+ 41164436 -rw-rw-r--  1000   1000  27714877  3-Nov-2023 19:56 applsci-10-05064-s001.zip
+ 41157685 -rw-rw-r--  1000   1000   5972309  9-Nov-2023 16:21 ROS_09.pdf
+ 41163357 -rw-rw-r--  1000   1000 793123858 31-Oct-2023 20:56 cudnn-local-tegra-repo-ubuntu2004-8.6.0.166_1.0-1_arm64.deb
+ 41164134 -rw-rw-r--  1000   1000    812096 31-Oct-2023 20:57 libnvidia-container1_1.10.0-1_arm64.deb
+ 41164318 -rw-rw-r--  1000   1000  15797116 31-Oct-2023 20:57 vpi-samples-2.3.9-cuda11-x86_64-linux.deb
+ 41164369 -rw-rw-r--  1000   1000 384255096 31-Oct-2023 20:58 NVIDIA_Nsight_Graphics_L4T_Public_2023.2.23187_x64.deb
+ 41164331 -rw-rw-r--  1000   1000 372681164 31-Oct-2023 20:58 NsightSystems-linux-public-2023.2.4.44-3301185.deb
+ 41164355 -rw-rw-r--  1000   1000   3200868 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-python.deb
+ 41164593 -rw-rw-r--  1000   1000     15076 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-licenses.deb
+ 41164604 -rw-rw-r--  1000   1000    254980 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-samples.deb
+ 41164725 -rw-rw-r--  1000   1000     80934 31-Oct-2023 20:59 vpi-dev-2.3.9-aarch64-l4t.deb
+ 41164745 -rw-rw-r--  1000   1000 646799100 31-Oct-2023 20:59 deepstream-6.3_6.3.0-1_arm64.deb
+ 41184157 -rw-rw-r--  1000   1000   5395259  3-Nov-2023 20:00 sensors-19-01479.pdf
+ 42086587 drwxr-xr-x  1000   1000      4096 13-Nov-2023 22:09 uploads_files_2602680_Drone
+ 41181713 -rw-rw-r--  1000   1000   1830879  5-Dec-2023 00:00 ROS_HW2 (5).pdf
+X41185563 -rw-rw-r--  1000   1000   1830879 19-Oct-2023 17:29 ROS_HW2 (1).pdf
+X41193196 -rw-rw-r--  1000   1000       514 19-Oct-2023 18:10 test case.txt
+X41205492 -rw-rw-r--  1000   1000    593641 19-Oct-2023 21:12 KCI_FI002877031.pdf
+X41206656 -rw-rw-r--  1000   1000    575629 19-Oct-2023 21:13 KCI_FI002729909.pdf
+X41238556 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:22 matlab_R2023b_glnxa64
+X41201348 -rw-rw-r--  1000   1000    588522 24-Oct-2023 16:58 FA7-1.pdf
+X41195314 -rw-rw-r--  1000   1000    145884 31-Oct-2023 22:35 sdkml3_jetpack_512.json
+X41164436 -rw-rw-r--  1000   1000  27714877  3-Nov-2023 19:56 applsci-10-05064-s001.zip
+X41157685 -rw-rw-r--  1000   1000   5972309  9-Nov-2023 16:21 ROS_09.pdf
+X41163357 -rw-rw-r--  1000   1000 793123858 31-Oct-2023 20:56 cudnn-local-tegra-repo-ubuntu2004-8.6.0.166_1.0-1_arm64.deb
+X41164134 -rw-rw-r--  1000   1000    812096 31-Oct-2023 20:57 libnvidia-container1_1.10.0-1_arm64.deb
+X41164318 -rw-rw-r--  1000   1000  15797116 31-Oct-2023 20:57 vpi-samples-2.3.9-cuda11-x86_64-linux.deb
+X41164369 -rw-rw-r--  1000   1000 384255096 31-Oct-2023 20:58 NVIDIA_Nsight_Graphics_L4T_Public_2023.2.23187_x64.deb
+X41164331 -rw-rw-r--  1000   1000 372681164 31-Oct-2023 20:58 NsightSystems-linux-public-2023.2.4.44-3301185.deb
+X41164355 -rw-rw-r--  1000   1000   3200868 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-python.deb
+X41164593 -rw-rw-r--  1000   1000     15076 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-licenses.deb
+X41164604 -rw-rw-r--  1000   1000    254980 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-samples.deb
+X41164725 -rw-rw-r--  1000   1000     80934 31-Oct-2023 20:59 vpi-dev-2.3.9-aarch64-l4t.deb
+X41164745 -rw-rw-r--  1000   1000 646799100 31-Oct-2023 20:59 deepstream-6.3_6.3.0-1_arm64.deb
+X41184157 -rw-rw-r--  1000   1000   5395259  3-Nov-2023 20:00 sensors-19-01479.pdf
+X42086587 drwxr-xr-x  1000   1000      4096 13-Nov-2023 22:09 uploads_files_2602680_Drone
+ 41183170 -rw-r--r--  1000   1000      3609 19-Oct-2023 17:22 김강민202017_32989_1878846_2020110517 김강민 로봇운영체제 실습 과제.py
+ 41183907 -rw-r--r--  1000   1000       169 19-Oct-2023 17:22 김준수201750_29150_1858811_4 2017116750 김준수.py
+ 41195139 -rw-rw-r--  1000   1000    682533  9-Oct-2023 20:49 KCI_FI002426271.pdf
+ 41183938 -rw-rw-r--  1000   1000     96464 19-Oct-2023 10:23 구미국방벤처센터 23-1차 지자체 개발비지원사업 중간 진도보고서 제출 요청.pdf
+ 41948684 drwxrwxr-x  1000   1000      4096 24-Sep-2023 20:09 Drones.v8-drone_aug3x.yolov8
+ 41183945 -rw-r--r--  1000   1000      1454 19-Oct-2023 17:22 이규민202238_70668_1851815_ROS__HW1.py
+ 41183846 -rw-r--r--  1000   1000       385 19-Oct-2023 17:22 윤기범202234_69553_1860219_hw4.py
+ 41195470 -rw-rw-r--  1000   1000   7539342  2-Oct-2023 21:03 futureinternet-15-00205-v2.pdf
+ 41201992 -rw-rw-r--  1000   1000  53345022  1-Oct-2023 19:09 신보사랑방_0910월.pdf
+ 41183836 -rw-r--r--  1000   1000       526 19-Oct-2023 17:22 윤기범202234_69553_1860218_hw3.py
+ 41183908 -rw-r--r--  1000   1000    121427 19-Oct-2023 17:22 김준수201750_29150_1858812_Assignment 2 2017116750 김준수.pdf
+ 41195242 -rw-rw-r--  1000   1000     96384  4-Oct-2023 12:14 [아고다_영수증]_예약_번호_1023014296.pdf
+ 41171217 -rw-rw-r--  1000   1000      3348 19-Sep-2023 17:20 bag_to_csv.py
+ 41183181 -rw-r--r--  1000   1000       930 19-Oct-2023 17:22 김민재202045_32714_1877829_ros3번.py
+ 41183982 -rw-r--r--  1000   1000    354010 19-Oct-2023 17:22 김영민202026_18668_1814348_ROS_HW2_2020115526_KimYoungMin-1.pdf
+ 41192006 -rw-rw-r--  1000   1000   1830879 19-Oct-2023 18:02 ROS_HW2 (3).pdf
+ 41202858 -rw-rw-r--  1000   1000    588139 19-Oct-2023 21:11 KCI_FI002877036.pdf
+ 41159131 -rw-rw-r--  1000   1000   3943367 20-Oct-2023 13:16 1697775416_704____001-Assignment_2_submissions.zip
+ 41201352 -rw-rw-r--  1000   1000    126202 24-Oct-2023 16:58 FC6-1.pdf
+ 41201370 -rw-rw-r--  1000   1000    716716 24-Oct-2023 16:59 FC6-3.pdf
+ 41203847 -rw-rw-r--  1000   1000   2591645 25-Oct-2023 15:10 RTSP를_이용한_임베디드_하드웨어_기반_동시_방송_시스템_개발.pdf
+ 41162206 -rw-rw-r--  1000   1000  84583816 31-Oct-2023 20:37 sdkmanager_2.0.0-11402_amd64.deb
+ 41164719 -rw-rw-r--  1000   1000  15264330  3-Nov-2023 19:35 applsci-10-05064-v2.pdf
+ 41163982 -rw-rw-r--  1000   1000   2385176 31-Oct-2023 20:55 NVIDIA_Nsight_Perf_SDK_Docs_2023.3.1.zip
+ 41161644 -rw-rw-r--  1000   1000    400428 31-Oct-2023 20:56 nvsci_1.0_x86_64.deb
+ 41164256 -rw-rw-r--  1000   1000  52539494 31-Oct-2023 20:57 vpi-lib-2.3.9-cuda11-x86_64-linux.deb
+ 41164189 -rw-rw-r--  1000   1000      4980 31-Oct-2023 20:57 nvidia-container-runtime_3.9.0-1_all.deb
+ 41164279 -rw-rw-r--  1000   1000     10040 31-Oct-2023 20:57 vpi-cross-aarch64-l4t-2.3.9-cuda11-x86_64-linux.deb
+ 41164077 -rw-rw-r--  1000   1000  74942346 31-Oct-2023 20:57 nvidia-l4t-jetson-multimedia-api_35.4.1-20230801124926_arm64.deb
+ 41164425 -rw-rw-r--  1000   1000 421341882 31-Oct-2023 20:58 nsight-compute-2022.2.1_2022.2.1.6-1_amd64.deb
+ 41164547 -rw-rw-r--  1000   1000   1247448 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-dev.deb
+ 41164682 -rw-rw-r--  1000   1000    775736 31-Oct-2023 20:59 vpi-python3.8-2.3.9-aarch64-l4t.deb
+ 41164729 -rw-rw-r--  1000   1000  32115992 31-Oct-2023 20:59 vpi-demos-2.3.9-aarch64-l4t.deb
+ 41163959 -rw-rw-r--  1000   1000 1505929477 31-Oct-2023 21:00 Tegra_Linux_Sample-Root-Filesystem_R35.4.1_aarch64.tbz2
+ 41197716 -rw-rw-r--  1000   1000 1504468160 31-Oct-2023 21:01 cuda-repo-l4t-11-4-local_11.4.19-1_arm64.deb
+ 41206732 -rw-rw-r--  1000   1000  38886912  7-Nov-2023 19:31 (위탁)안전한 귀가 서비스를 위한 스마트 드론 스카우트 응용 기술 연구_연차실적계획서_.hwp
+ 41234250 -rw-rw-r--  1000   1000    132718 13-Nov-2023 18:33 Visualization-of-simulated-UAVs-in-RViz.ppm
+ 41160464 -rw-rw-r--  1000   1000    501063 13-Nov-2023 20:20 56196_open3dmodel.com.rar
+ 42084339 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:24 56196_open3dmodel.com
+ 41202673 -rw-rw-r--  1000   1000  12045525 13-Nov-2023 21:48 571664.pdf
+ 41162849 -rw-rw-r--  1000   1000   1639280 28-Nov-2023 12:05 aerospace-2702828-peer-review-v1.pdf
+ 41197476 -rw-rw-r--  1000   1000       718 29-Nov-2023 15:23 aerospace-2702828 peer-review report due.ics
+ 41183169 -rw-r--r--  1000   1000    406511 19-Oct-2023 17:22 김강민202017_32989_1878845_2020110517 김강민 로봇운영체제 실습 과제 .pdf
+ 41183179 -rw-r--r--  1000   1000      1248 19-Oct-2023 17:22 김민재202045_32714_1877828_ros2번.py
+ 41164274 -rw-rw-r--  1000   1000     80886 31-Oct-2023 20:57 vpi-dev-2.3.9-cuda11-x86_64-linux.deb
+ 41213804 -rw-rw-r--  1000   1000   1034033  2-Oct-2023 00:07 Preprints202305.1067.v1.pdf
+ 41164304 -rw-rw-r--  1000   1000    874152 31-Oct-2023 20:57 vpi-python3.9-2.3.9-cuda11-x86_64-linux.deb
+ 41238565 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 MathWorks
+ 41164728 -rw-rw-r--  1000   1000  15797076 31-Oct-2023 20:59 vpi-samples-2.3.9-aarch64-l4t.deb
+ 41171994 -rw-rw-r--  1000   1000   1830879 20-Oct-2023 13:27 ROS_HW2 (4).pdf
+ 41183178 -rw-r--r--  1000   1000      1708 19-Oct-2023 17:22 김민재202045_32714_1877827_ros1번.py
+ 41164171 -rw-rw-r--  1000   1000   1826600 31-Oct-2023 20:57 nvidia-container-toolkit_1.11.0_rc.1-1_arm64.deb
+ 41288841 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:47 archive (3)
+ 41238529 drwxrwxr-x  1000   1000      4096 19-Oct-2023 17:22 1697703727_175____001-Assignment_2_submissions
+ 41955242 drwxrwxr-x  1000   1000      4096 27-Sep-2023 17:27 px4_typhoon_h480.v1i.yolov8
+ 41192331 -rw-rw-r--  1000   1000  15264330  3-Nov-2023 19:49 applsci-10-05064-v2 (1).pdf
+ 41163984 -rw-rw-r--  1000   1000 747069329 31-Oct-2023 20:59 Jetson_Linux_R35.4.1_aarch64.tbz2
+ 41171277 -rw-rw-r--  1000   1000  53345022 20-Oct-2023 19:29 신보사랑방_0910월 (2).pdf
+ 41183182 -rw-r--r--  1000   1000       930 19-Oct-2023 17:22 김민재202045_32714_1877830_ros4번.py
+ 41201373 -rw-rw-r--  1000   1000    306343 24-Oct-2023 16:59 FC6-6.pdf
+ 41183971 -rw-r--r--  1000   1000      2313 19-Oct-2023 17:22 이진한202031_33065_1846335_Hw_2_1-1.py
+ 41203751 -rw-rw-r--  1000   1000    230916  9-Oct-2023 15:02 수령증_thesis.pdf
+ 41183822 -rw-r--r--  1000   1000    265527 19-Oct-2023 17:22 윤기범202234_69553_1860215_로스_보고서.pdf
+ 41191868 -rw-rw-r--  1000   1000  10389512 27-Sep-2023 17:23 px4_typhoon_h480.v1i.yolov8.zip
+ 41183924 -rw-r--r--  1000   1000    359444 19-Oct-2023 17:22 이규민202238_70668_1851813_Python Assignment2 2022111338.pdf
+ 41171348 -rw-rw-r--  1000   1000    323573  9-Oct-2023 14:57 _Thesis__Flight_guidance_algorithm_based_on_gimbal_camera_information_for_tracking_and_striking_illega_drones.pdf
+ 41164139 -rw-rw-r--  1000   1000     22488 31-Oct-2023 20:57 libnvidia-container-tools_1.10.0-1_arm64.deb
+ 41238537 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:17 1697775416_704____001-Assignment_2_submissions
+ 41183175 -rw-r--r--  1000   1000    155163 19-Oct-2023 17:22 김민재202045_32714_1877826_2020112345김민재 로스파이썬 과제.pdf
+ 41207634 -rw-rw-r--  1000   1000      6426 31-Oct-2023 21:02 sdkml3_deepstream_63.json
+ 41185735 -rw-rw-r--  1000   1000   1830879 19-Oct-2023 17:32 ROS_HW2 (2).pdf
+ 41183988 -rw-r--r--  1000   1000      2561 19-Oct-2023 17:22 김영민202026_18668_1814349_ROS_HW2_python_code_KimYoungMin.zip
+ 41201580 -rw-rw-r--  1000   1000   5304045  3-Oct-2023 18:41 »êÇÐÇù·Â´Ü Annual_Report(ÇÑ±ÛÆÇ) Ver 2020.pdf
+ 41183195 -rw-r--r--  1000   1000       608 19-Oct-2023 17:22 송영우202017_32622_1869635_no1.py
+ 41183935 -rw-r--r--  1000   1000      4687 19-Oct-2023 17:22 이규민202238_70668_1851814_Python과제 code (2022111338 이규민).txt
+ 41158789 -rw-rw-r--  1000   1000   5296058  1-Oct-2023 17:33 ROS_05.pdf
+ 41183186 -rw-r--r--  1000   1000    671700 19-Oct-2023 17:22 송영우202017_32622_1869634_보고서.pdf
+ 41197727 -rw-rw-r--  1000   1000 2480087528 31-Oct-2023 21:02 cuda-repo-ubuntu2004-11-4-local_11.4.19-470.154-1_amd64.deb
+ 41162683 -rw-rw-r--  1000   1000   2784438  1-Oct-2023 21:53 drones-02-00034.pdf
+ 41238617 drwxrwxr-x  1000   1000      4096 31-Oct-2023 22:35 hwdata
+ 41223144 -rw-rw-r--  1000   1000  18108784 17-Oct-2023 17:22 MaSecureClient_noax_total.exe
+ 41164819 -rw-rw-r--  1000   1000      8148 19-Sep-2023 17:18 plot_functions.py
+ 41165133 -rw-rw-r--  1000   1000    112751  2-Oct-2023 22:53 test.png
+ 41182795 drwxrwxr-x  1000   1000      4096 23-Aug-2020 17:03 Nature
+ 41156933 -rw-rw-r--  1000   1000        68  7-Nov-2023 19:31 .~lock.(위탁)안전한 귀가 서비스를 위한 스마트 드론 스카우트 응용 기술 연구_연차실적계획서_.hwp#
+ 41163949 -rw-rw-r--  1000   1000  16893080 13-Nov-2023 20:22 92831_open3dmodel.com.rar
+ 41157040 -rw-rw-r--  1000   1000  16815356 13-Nov-2023 20:27 Garud-500 DIY Drone - 2453393.zip
+ 42086598 drwxrwxr-x  1000   1000      4096 13-Nov-2023 22:12 15526_123free3dmodels.com
+ 41183152 -rw-rw-r--  1000   1000   2565837 19-Oct-2023 17:22 1697703727_175____001-Assignment_2_submissions.zip
+ 41164114 -rw-rw-r--  1000   1000     42384 31-Oct-2023 20:57 libnvidia-container0_0.11.0+jetpack_arm64.deb
+ 41164104 -rw-rw-r--  1000   1000 691310698 31-Oct-2023 20:57 nv-tensorrt-local-repo-l4t-8.5.2-cuda-11.4_1.0-1_arm64.deb
+ 41215686 -rw-rw-r--  1000   1000  46275447 24-Sep-2023 19:59 Drones.v8-drone_aug3x.yolov8.zip
+ 41164645 -rw-rw-r--  1000   1000  51442406 31-Oct-2023 20:59 vpi-lib-2.3.9-aarch64-l4t.deb
+ 41157793 -rw-rw-r--  1000   1000      6162  4-Oct-2023 14:12 frgLangExemptReq.pdf
+ 41161377 -rw-rw-r--  1000   1000    140823 13-Nov-2023 22:11 15526_123free3dmodels.com.rar
+ 41195493 -rwxrwxrwx  1000   1000  55032961  3-Dec-2023 17:55 qt-unified-linux-x64-4.6.1-online.run
+ 41163969 -rw-rw-r--  1000   1000  59527259 31-Oct-2023 20:55 NVIDIA_Nsight_Perf_SDK_2023.3.1.tar.gz
+ 41161790 -rw-rw-r--  1000   1000    185936  4-Oct-2023 13:36 t.pdf
+ 41161316 -rw-rw-r--  1000   1000     57856  1-Oct-2023 20:52 ºÙÀÓ4_2021ÇÐ³âµµ 1ÇÐ±â »ê¾÷´ëÇÐ¿ø ÇÐÀ§³í¹® ÀÛ¼º ¹æ¹ý.hwp
+ 41191340 -rw-rw-r--  1000   1000 153480114  3-Nov-2023 19:49 978-3-319-70833-1.pdf
+ 41157361 -rw-rw-r--  1000   1000   5459746 19-Oct-2023 11:51 ROS_06.pdf
+ 41183825 -rw-r--r--  1000   1000       502 19-Oct-2023 17:22 윤기범202234_69553_1860216_hw1.py
+ 41183978 -rw-r--r--  1000   1000    942802 19-Oct-2023 17:22 이진한202031_33065_1846339_2020114631_이진한_코드 설명.pdf
+ 41191128 -rw-rw-r--  1000   1000   1830879  7-Oct-2023 19:03 ROS_HW2.pdf
+ 41164324 -rw-rw-r--  1000   1000  32112254 31-Oct-2023 20:57 vpi-demos-2.3.9-cuda11-x86_64-linux-ubuntu2004.deb
+ 41159386 -rw-rw-r--  1000   1000   5459746 19-Oct-2023 21:04 ROS_06 (1).pdf
+ 41157820 -rw-rw-r--  1000   1000  96683480 11-Sep-2023 17:24 google-chrome-stable_current_amd64.deb
+ 41182790 -rw-rw-r--  1000   1000  17228610 17-Sep-2023 17:01 Nature.zip
+ 41211190 -rw-rw-r--  1000   1000   1661859 20-Sep-2023 15:29 무인 항공기의 이동체 상부로의 영상 기반 자동 착륙 시스템.pdf
+ 41164692 -rw-rw-r--  1000   1000    775004 31-Oct-2023 20:59 vpi-python3.9-2.3.9-aarch64-l4t.deb
+ 41157646 -rw-rw-r--  1000   1000   5459746 19-Oct-2023 21:17 ROS_06 (2).pdf
+ 41164672 -rw-r--r--  1000   1000       275 24-Sep-2023 10:59 data.yaml
+ 41183975 -rw-r--r--  1000   1000      2137 19-Oct-2023 17:22 이진한202031_33065_1846337_Hw_2_3 (1)-1.py
+ 41160451 -rw-rw-r--  1000   1000         0 13-Nov-2023 22:10 drone.dae
+ 41192394 -rw-rw-r--  1000   1000     67072 20-Oct-2023 17:36 대학원 학위논문 심사관련 안내 사항.hwp
+ 41162191 -rw-rw-r--  1000   1000   2238281 13-Nov-2023 22:09 uploads_files_2602680_Drone.rar
+ 41214703 -rw-rw-r--  1000   1000      9889 20-Sep-2023 21:57 dynamic_obstacle_avoidance.py
+ 41164283 -rw-rw-r--  1000   1000    873314 31-Oct-2023 20:57 vpi-python3.8-2.3.9-cuda11-x86_64-linux.deb
+ 41162010 -rw-rw-r--  1000   1000   1639280 29-Nov-2023 15:23 aerospace-2702828-peer-review-v1 (1).pdf
+ 41183976 -rw-r--r--  1000   1000       438 19-Oct-2023 17:22 이진한202031_33065_1846338_Hw_2_4 (1)-1.py
+ 41164472 -rw-rw-r--  1000   1000  81804732 31-Oct-2023 20:58 nsight-compute-addon-l4t-2022.2.1_2022.2.1.6-1_all.deb
+ 41192932 -rw-rw-r--  1000   1000 203311955 21-Oct-2023 14:22 matlab_R2023b_glnxa64.zip
+ 41210242 -rw-rw-r--  1000   1000  53345022  3-Dec-2023 17:30 신보사랑방_0910월 (3).pdf
+ 41164060 -rw-rw-r--  1000   1000 947311548 31-Oct-2023 20:56 cuda-repo-cross-aarch64-ubuntu2004-11-4-local_11.4.19-1_all.deb
+ 41164225 -rw-rw-r--  1000   1000      5544 31-Oct-2023 20:57 nvidia-docker2_2.11.0-1_all.deb
+ 41183969 -rw-r--r--  1000   1000       604 19-Oct-2023 17:22 이규민202238_70668_1851818_ROS__HW4.py
+ 41183883 -rw-r--r--  1000   1000       693 19-Oct-2023 17:22 김준수201750_29150_1858809_2 2017116750 김준수.py
+ 41227698 -rw-rw-r--  1000   1000    287090 10-Oct-2023 00:19 thesis_hojunLee_논문표절예방프로그램 결과물.pdf
+ 41189979 -rw-rw-r--  1000   1000  39223147  3-Nov-2023 19:49 978-981-19-3951-8.pdf
+ 41164103 -rw-rw-r--  1000   1000  11278130 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-libs.deb
+ 41161070 -rw-rw-r--  1000   1000   3943367  4-Dec-2023 23:58 1701701849_792____001-Assignment_2_submissions.zip
+ 41279759 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:58 1701701849_792____001-Assignment_2_submissions
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41156651
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/Desktop
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41162427 -rw-rw-r--  1000   1000      5151 20-Sep-2023 19:06 thesis
+ 41163297 -rw-rw-r--  1000   1000     22411 20-Sep-2023 21:53 Figure_1.png
+ 41238868 -rw-rw-r--  1000   1000      5630 26-Sep-2023 20:26 1.png
+ 41217260 -rw-rw-r--  1000   1000    326167 25-Oct-2023 14:11 result_1025.mat
+ 41197740 -rw-rw-r--  1000   1000     19482  8-Oct-2023 17:33 gimbal_camera.png
+ 41197858 -rw-rw-r--  1000   1000     35743  8-Oct-2023 17:34 gimbal_axis.png
+ 41162710 -rw-rw-r--  1000   1000     22638  5-Nov-2023 23:13 ada.png
+ 41184205 -rw-rw-r--  1000   1000    326375 25-Oct-2023 14:20 result.zip
+ 41161856 -rw-rw-r--  1000   1000      1265 26-Oct-2023 22:07 mosse_test.py
+ 41219764 -rw-rw-r--  1000   1000    287090 10-Oct-2023 00:15 thesis_hojunLee_논문표절예방프로그램 결과물.pdf
+ 41198369 -rw-rw-r--  1000   1000     11306  6-Nov-2023 00:21 featurepoint.png
+ 41162258 -rw-rw-r--  1000   1000         0 13-Nov-2023 22:10 drone.dae
+ 41171889 -rw-rw-r--  1000   1000      5107 14-Nov-2023 20:27 after.png
+ 41209504 -rw-rw-r--  1000   1000      5064 14-Nov-2023 20:29 before.png
+ 41209512 -rw-rw-r--  1000   1000      1537 14-Nov-2023 20:32 Screenshot from 2023-11-14 20-32-08.png
+ 41208489 -rw-rw-r--  1000   1000      1790 14-Nov-2023 20:32 after_binary.png
+ 41209500 -rw-rw-r--  1000   1000      1782 14-Nov-2023 20:35 calculation_feature.png
+ 41209338 -rw-rw-r--  1000   1000      2290 14-Nov-2023 20:39 finish_angle.png
+ 41235663 -rw-rw-r--  1000   1000      9125 17-Nov-2023 21:22 enviroment.png
+ 41227456 -rw-rw-r--  1000   1000    121576 17-Nov-2023 21:32 interceptor.png
+ 41235070 -rw-rw-r--  1000   1000     17507 17-Nov-2023 21:33 target_drone.png
+ 41707338 drwxrwxr-x  1000   1000      4096 18-Nov-2023 16:56 result_img
+ 41242400 -rw-rw-r--  1000   1000     13874 18-Nov-2023 22:34 forwardDirection.png
+ 41218589 -rw-rw-r--  1000   1000      6524 18-Nov-2023 22:39 forward2.png
+ 41249308 -rw-rw-r--  1000   1000     33764 23-Nov-2023 15:55 drone size.png
+ 41249330 -rw-rw-r--  1000   1000     31951 23-Nov-2023 15:57 dronesize2.png
+ 41249371 -rw-rw-r--  1000   1000     70567 23-Nov-2023 16:00 drone3.png
+ 45613131 -rw-rw-r--  1000   1000     49123 27-Nov-2023 15:59 연구실안전관리시스템.pdf
+ 41204924 -rw-rw-r--  1000   1000     66466 29-Nov-2023 14:50 rmse.jpg
+ 41271435 drwxrwxr-x  1000   1000      4096 30-Nov-2023 13:45 pose_estimaion_result
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41944653
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/etri
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41228495 -rw-rw-r--  1000   1000       109 19-Sep-2023 17:13 requirement.txt
+ 41209185 -rw-rw-r--  1000   1000      5751 19-Sep-2023 17:13 user_path.py
+ 41948219 -rw-rw-r--  1000   1000      9667 21-Sep-2023 09:35 plot_functions.py
+ 41948274 drwxrwxr-x  1000   1000      4096 20-Sep-2023 19:43 __pycache__
+ 41948131 -rw-rw-r--  1000   1000      9548 20-Sep-2023 21:52 obstacle_avoidance.py
+ 41948657 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 cache
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41943693
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+
+dir_partition inode=41944217
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script/ros_yolo_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 .
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 ..
+ 41944228 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:17 .git
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+Directory /home
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 arrf
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+      11 drwx------     0      0     16384 29-Aug-2023 20:00 lost+found
+  524289 drwxr-xr-x     0      0      4096 13-Dec-2023 06:18 boot
+      12 -rw-------     0      0 2147483648 29-Aug-2023 20:00 swapfile
+ 53477377 drwxr-xr-x     0      0     12288 14-Dec-2023 06:57 etc
+ 13893633 drwxr-xr-x     0      0      4096  4-Oct-2023 14:01 media
+      13 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 bin
+ 37486593 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 dev
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 home
+      14 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 lib
+      15 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib32
+      16 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib64
+      17 lrwxrwxrwx     0      0        10 29-Aug-2023 20:00 libx32
+ 42991617 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 mnt
+ 33292289 drwxr-xr-x     0      0      4096 18-Sep-2023 15:37 opt
+ 47185921 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 proc
+ 25427969 drwx------     0      0      4096 31-Oct-2023 21:24 root
+ 27787265 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 run
+      18 lrwxrwxrwx     0      0         8 29-Aug-2023 20:00 sbin
+ 40108033 drwxr-xr-x     0      0      4096 22-Oct-2023 17:57 snap
+ 33554433 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 srv
+ 19136513 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 sys
+ 45613057 drwxrwxrwt     0      0     94208 16-Dec-2023 20:32 tmp
+ 1572865 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 usr
+ 27262977 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 var
+ 24903681 drwxrwxr-x     0      0      4096 29-Aug-2023 20:01 cdrom
+
+dir_partition inode=41156609
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 arrf
+
+dir_partition inode=41156610
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41156651
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/Desktop
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41162427 -rw-rw-r--  1000   1000      5151 20-Sep-2023 19:06 thesis
+ 41163297 -rw-rw-r--  1000   1000     22411 20-Sep-2023 21:53 Figure_1.png
+ 41238868 -rw-rw-r--  1000   1000      5630 26-Sep-2023 20:26 1.png
+ 41217260 -rw-rw-r--  1000   1000    326167 25-Oct-2023 14:11 result_1025.mat
+ 41197740 -rw-rw-r--  1000   1000     19482  8-Oct-2023 17:33 gimbal_camera.png
+ 41197858 -rw-rw-r--  1000   1000     35743  8-Oct-2023 17:34 gimbal_axis.png
+ 41162710 -rw-rw-r--  1000   1000     22638  5-Nov-2023 23:13 ada.png
+ 41184205 -rw-rw-r--  1000   1000    326375 25-Oct-2023 14:20 result.zip
+ 41161856 -rw-rw-r--  1000   1000      1265 26-Oct-2023 22:07 mosse_test.py
+ 41219764 -rw-rw-r--  1000   1000    287090 10-Oct-2023 00:15 thesis_hojunLee_논문표절예방프로그램 결과물.pdf
+ 41198369 -rw-rw-r--  1000   1000     11306  6-Nov-2023 00:21 featurepoint.png
+ 41162258 -rw-rw-r--  1000   1000         0 13-Nov-2023 22:10 drone.dae
+ 41171889 -rw-rw-r--  1000   1000      5107 14-Nov-2023 20:27 after.png
+ 41209504 -rw-rw-r--  1000   1000      5064 14-Nov-2023 20:29 before.png
+ 41209512 -rw-rw-r--  1000   1000      1537 14-Nov-2023 20:32 Screenshot from 2023-11-14 20-32-08.png
+ 41208489 -rw-rw-r--  1000   1000      1790 14-Nov-2023 20:32 after_binary.png
+ 41209500 -rw-rw-r--  1000   1000      1782 14-Nov-2023 20:35 calculation_feature.png
+ 41209338 -rw-rw-r--  1000   1000      2290 14-Nov-2023 20:39 finish_angle.png
+ 41235663 -rw-rw-r--  1000   1000      9125 17-Nov-2023 21:22 enviroment.png
+ 41227456 -rw-rw-r--  1000   1000    121576 17-Nov-2023 21:32 interceptor.png
+ 41235070 -rw-rw-r--  1000   1000     17507 17-Nov-2023 21:33 target_drone.png
+ 41707338 drwxrwxr-x  1000   1000      4096 18-Nov-2023 16:56 result_img
+ 41242400 -rw-rw-r--  1000   1000     13874 18-Nov-2023 22:34 forwardDirection.png
+ 41218589 -rw-rw-r--  1000   1000      6524 18-Nov-2023 22:39 forward2.png
+ 41249308 -rw-rw-r--  1000   1000     33764 23-Nov-2023 15:55 drone size.png
+ 41249330 -rw-rw-r--  1000   1000     31951 23-Nov-2023 15:57 dronesize2.png
+ 41249371 -rw-rw-r--  1000   1000     70567 23-Nov-2023 16:00 drone3.png
+ 45613131 -rw-rw-r--  1000   1000     49123 27-Nov-2023 15:59 연구실안전관리시스템.pdf
+ 41204924 -rw-rw-r--  1000   1000     66466 29-Nov-2023 14:50 rmse.jpg
+ 41271435 drwxrwxr-x  1000   1000      4096 30-Nov-2023 13:45 pose_estimaion_result
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41156652
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/Downloads
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41193523 -rw-rw-r--  1000   1000   1169261 17-Sep-2023 17:45 무력화 시뮬레이션 영상-경북대학교.mp4
+ 41164764 -rw-rw-r--  1000   1000      5843 19-Sep-2023 17:24 obstacle_avoidance.py
+ 41220436 -rw-rw-r--  1000   1000      3679 20-Sep-2023 21:57 path_planning_functions.py
+ 41157746 -rw-rw-r--  1000   1000  13705702 24-Sep-2023 19:35 drones-06-00308.pdf
+ 41164620 -rw-rw-r--  1000   1000    202354 31-Oct-2023 20:58 cupva-2.3.0-l4t.deb
+ 41203770 -rw-rw-r--  1000   1000   7030504 27-Sep-2023 17:54 anydesk_6.3.0-1_amd64.deb
+ 41159490 -rw-rw-r--  1000   1000  53345022  1-Oct-2023 19:13 신보사랑방_0910월 (1).pdf
+ 41195665 -rw-rw-r--  1000   1000     74622  4-Oct-2023 12:14 Confirmation_for_Booking_ID_#_1023014296.pdf
+ 41192652 -rw-rw-r--  1000   1000     11776  4-Oct-2023 16:09 논문지도교수추천서.hwp
+ 41193621 -rw-rw-r--  1000   1000    967168  4-Oct-2023 16:09 20210927_150115.hwp
+ 41204108 -rw-rw-r--  1000   1000    323573  9-Oct-2023 15:03 l_camera_information_for_tracking_and_striking_illega_drones.pdf
+ 41222544 -rw-rw-r--  1000   1000    479100 10-Oct-2023 00:02 _Thesis__Flight_guidance_algorithm_based_on_gimbal_camera_information_for_tracking_and_striking_illega_drones (1).pdf
+ 41227078 -rw-rw-r--  1000   1000     67316 10-Oct-2023 00:08 Turnitin_Originality_Report_2190388114.html
+ 41164569 -rw-rw-r--  1000   1000    380814 17-Oct-2023 17:29 DIFA 2023 부스배치도 및 참가기업 리스트.pdf
+ 41183813 -rw-r--r--  1000   1000      3018 19-Oct-2023 17:22 송영우202017_32622_1869636_no2.py
+ 41183818 -rw-r--r--  1000   1000       554 19-Oct-2023 17:22 송영우202017_32622_1869637_no3.py
+ 41183819 -rw-r--r--  1000   1000       216 19-Oct-2023 17:22 송영우202017_32622_1869638_no4.py
+ 41183832 -rw-r--r--  1000   1000      2728 19-Oct-2023 17:22 윤기범202234_69553_1860217_hw2.py
+ 41183867 -rw-r--r--  1000   1000       473 19-Oct-2023 17:22 김준수201750_29150_1858808_1 2017116750 김준수.py
+ 41183905 -rw-r--r--  1000   1000      1122 19-Oct-2023 17:22 김준수201750_29150_1858810_3 2017116750 김준수.py
+ 41183947 -rw-r--r--  1000   1000      1702 19-Oct-2023 17:22 이규민202238_70668_1851816_ROS__HW2.py
+ 41183960 -rw-r--r--  1000   1000       688 19-Oct-2023 17:22 이규민202238_70668_1851817_ROS__HW3.py
+ 41183973 -rw-r--r--  1000   1000      3616 19-Oct-2023 17:22 이진한202031_33065_1846336_Hw_2_2-1.py
+ 41185563 -rw-rw-r--  1000   1000   1830879 19-Oct-2023 17:29 ROS_HW2 (1).pdf
+ 41193196 -rw-rw-r--  1000   1000       514 19-Oct-2023 18:10 test case.txt
+ 41205492 -rw-rw-r--  1000   1000    593641 19-Oct-2023 21:12 KCI_FI002877031.pdf
+ 41206656 -rw-rw-r--  1000   1000    575629 19-Oct-2023 21:13 KCI_FI002729909.pdf
+ 41238556 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:22 matlab_R2023b_glnxa64
+ 41201348 -rw-rw-r--  1000   1000    588522 24-Oct-2023 16:58 FA7-1.pdf
+ 41195314 -rw-rw-r--  1000   1000    145884 31-Oct-2023 22:35 sdkml3_jetpack_512.json
+ 41164436 -rw-rw-r--  1000   1000  27714877  3-Nov-2023 19:56 applsci-10-05064-s001.zip
+ 41157685 -rw-rw-r--  1000   1000   5972309  9-Nov-2023 16:21 ROS_09.pdf
+ 41163357 -rw-rw-r--  1000   1000 793123858 31-Oct-2023 20:56 cudnn-local-tegra-repo-ubuntu2004-8.6.0.166_1.0-1_arm64.deb
+ 41164134 -rw-rw-r--  1000   1000    812096 31-Oct-2023 20:57 libnvidia-container1_1.10.0-1_arm64.deb
+ 41164318 -rw-rw-r--  1000   1000  15797116 31-Oct-2023 20:57 vpi-samples-2.3.9-cuda11-x86_64-linux.deb
+ 41164369 -rw-rw-r--  1000   1000 384255096 31-Oct-2023 20:58 NVIDIA_Nsight_Graphics_L4T_Public_2023.2.23187_x64.deb
+ 41164331 -rw-rw-r--  1000   1000 372681164 31-Oct-2023 20:58 NsightSystems-linux-public-2023.2.4.44-3301185.deb
+ 41164355 -rw-rw-r--  1000   1000   3200868 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-python.deb
+ 41164593 -rw-rw-r--  1000   1000     15076 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-licenses.deb
+ 41164604 -rw-rw-r--  1000   1000    254980 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-samples.deb
+ 41164725 -rw-rw-r--  1000   1000     80934 31-Oct-2023 20:59 vpi-dev-2.3.9-aarch64-l4t.deb
+ 41164745 -rw-rw-r--  1000   1000 646799100 31-Oct-2023 20:59 deepstream-6.3_6.3.0-1_arm64.deb
+ 41184157 -rw-rw-r--  1000   1000   5395259  3-Nov-2023 20:00 sensors-19-01479.pdf
+ 42086587 drwxr-xr-x  1000   1000      4096 13-Nov-2023 22:09 uploads_files_2602680_Drone
+ 41181713 -rw-rw-r--  1000   1000   1830879  5-Dec-2023 00:00 ROS_HW2 (5).pdf
+X41185563 -rw-rw-r--  1000   1000   1830879 19-Oct-2023 17:29 ROS_HW2 (1).pdf
+X41193196 -rw-rw-r--  1000   1000       514 19-Oct-2023 18:10 test case.txt
+X41205492 -rw-rw-r--  1000   1000    593641 19-Oct-2023 21:12 KCI_FI002877031.pdf
+X41206656 -rw-rw-r--  1000   1000    575629 19-Oct-2023 21:13 KCI_FI002729909.pdf
+X41238556 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:22 matlab_R2023b_glnxa64
+X41201348 -rw-rw-r--  1000   1000    588522 24-Oct-2023 16:58 FA7-1.pdf
+X41195314 -rw-rw-r--  1000   1000    145884 31-Oct-2023 22:35 sdkml3_jetpack_512.json
+X41164436 -rw-rw-r--  1000   1000  27714877  3-Nov-2023 19:56 applsci-10-05064-s001.zip
+X41157685 -rw-rw-r--  1000   1000   5972309  9-Nov-2023 16:21 ROS_09.pdf
+X41163357 -rw-rw-r--  1000   1000 793123858 31-Oct-2023 20:56 cudnn-local-tegra-repo-ubuntu2004-8.6.0.166_1.0-1_arm64.deb
+X41164134 -rw-rw-r--  1000   1000    812096 31-Oct-2023 20:57 libnvidia-container1_1.10.0-1_arm64.deb
+X41164318 -rw-rw-r--  1000   1000  15797116 31-Oct-2023 20:57 vpi-samples-2.3.9-cuda11-x86_64-linux.deb
+X41164369 -rw-rw-r--  1000   1000 384255096 31-Oct-2023 20:58 NVIDIA_Nsight_Graphics_L4T_Public_2023.2.23187_x64.deb
+X41164331 -rw-rw-r--  1000   1000 372681164 31-Oct-2023 20:58 NsightSystems-linux-public-2023.2.4.44-3301185.deb
+X41164355 -rw-rw-r--  1000   1000   3200868 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-python.deb
+X41164593 -rw-rw-r--  1000   1000     15076 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-licenses.deb
+X41164604 -rw-rw-r--  1000   1000    254980 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-samples.deb
+X41164725 -rw-rw-r--  1000   1000     80934 31-Oct-2023 20:59 vpi-dev-2.3.9-aarch64-l4t.deb
+X41164745 -rw-rw-r--  1000   1000 646799100 31-Oct-2023 20:59 deepstream-6.3_6.3.0-1_arm64.deb
+X41184157 -rw-rw-r--  1000   1000   5395259  3-Nov-2023 20:00 sensors-19-01479.pdf
+X42086587 drwxr-xr-x  1000   1000      4096 13-Nov-2023 22:09 uploads_files_2602680_Drone
+ 41183170 -rw-r--r--  1000   1000      3609 19-Oct-2023 17:22 김강민202017_32989_1878846_2020110517 김강민 로봇운영체제 실습 과제.py
+ 41183907 -rw-r--r--  1000   1000       169 19-Oct-2023 17:22 김준수201750_29150_1858811_4 2017116750 김준수.py
+ 41195139 -rw-rw-r--  1000   1000    682533  9-Oct-2023 20:49 KCI_FI002426271.pdf
+ 41183938 -rw-rw-r--  1000   1000     96464 19-Oct-2023 10:23 구미국방벤처센터 23-1차 지자체 개발비지원사업 중간 진도보고서 제출 요청.pdf
+ 41948684 drwxrwxr-x  1000   1000      4096 24-Sep-2023 20:09 Drones.v8-drone_aug3x.yolov8
+ 41183945 -rw-r--r--  1000   1000      1454 19-Oct-2023 17:22 이규민202238_70668_1851815_ROS__HW1.py
+ 41183846 -rw-r--r--  1000   1000       385 19-Oct-2023 17:22 윤기범202234_69553_1860219_hw4.py
+ 41195470 -rw-rw-r--  1000   1000   7539342  2-Oct-2023 21:03 futureinternet-15-00205-v2.pdf
+ 41201992 -rw-rw-r--  1000   1000  53345022  1-Oct-2023 19:09 신보사랑방_0910월.pdf
+ 41183836 -rw-r--r--  1000   1000       526 19-Oct-2023 17:22 윤기범202234_69553_1860218_hw3.py
+ 41183908 -rw-r--r--  1000   1000    121427 19-Oct-2023 17:22 김준수201750_29150_1858812_Assignment 2 2017116750 김준수.pdf
+ 41195242 -rw-rw-r--  1000   1000     96384  4-Oct-2023 12:14 [아고다_영수증]_예약_번호_1023014296.pdf
+ 41171217 -rw-rw-r--  1000   1000      3348 19-Sep-2023 17:20 bag_to_csv.py
+ 41183181 -rw-r--r--  1000   1000       930 19-Oct-2023 17:22 김민재202045_32714_1877829_ros3번.py
+ 41183982 -rw-r--r--  1000   1000    354010 19-Oct-2023 17:22 김영민202026_18668_1814348_ROS_HW2_2020115526_KimYoungMin-1.pdf
+ 41192006 -rw-rw-r--  1000   1000   1830879 19-Oct-2023 18:02 ROS_HW2 (3).pdf
+ 41202858 -rw-rw-r--  1000   1000    588139 19-Oct-2023 21:11 KCI_FI002877036.pdf
+ 41159131 -rw-rw-r--  1000   1000   3943367 20-Oct-2023 13:16 1697775416_704____001-Assignment_2_submissions.zip
+ 41201352 -rw-rw-r--  1000   1000    126202 24-Oct-2023 16:58 FC6-1.pdf
+ 41201370 -rw-rw-r--  1000   1000    716716 24-Oct-2023 16:59 FC6-3.pdf
+ 41203847 -rw-rw-r--  1000   1000   2591645 25-Oct-2023 15:10 RTSP를_이용한_임베디드_하드웨어_기반_동시_방송_시스템_개발.pdf
+ 41162206 -rw-rw-r--  1000   1000  84583816 31-Oct-2023 20:37 sdkmanager_2.0.0-11402_amd64.deb
+ 41164719 -rw-rw-r--  1000   1000  15264330  3-Nov-2023 19:35 applsci-10-05064-v2.pdf
+ 41163982 -rw-rw-r--  1000   1000   2385176 31-Oct-2023 20:55 NVIDIA_Nsight_Perf_SDK_Docs_2023.3.1.zip
+ 41161644 -rw-rw-r--  1000   1000    400428 31-Oct-2023 20:56 nvsci_1.0_x86_64.deb
+ 41164256 -rw-rw-r--  1000   1000  52539494 31-Oct-2023 20:57 vpi-lib-2.3.9-cuda11-x86_64-linux.deb
+ 41164189 -rw-rw-r--  1000   1000      4980 31-Oct-2023 20:57 nvidia-container-runtime_3.9.0-1_all.deb
+ 41164279 -rw-rw-r--  1000   1000     10040 31-Oct-2023 20:57 vpi-cross-aarch64-l4t-2.3.9-cuda11-x86_64-linux.deb
+ 41164077 -rw-rw-r--  1000   1000  74942346 31-Oct-2023 20:57 nvidia-l4t-jetson-multimedia-api_35.4.1-20230801124926_arm64.deb
+ 41164425 -rw-rw-r--  1000   1000 421341882 31-Oct-2023 20:58 nsight-compute-2022.2.1_2022.2.1.6-1_amd64.deb
+ 41164547 -rw-rw-r--  1000   1000   1247448 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-dev.deb
+ 41164682 -rw-rw-r--  1000   1000    775736 31-Oct-2023 20:59 vpi-python3.8-2.3.9-aarch64-l4t.deb
+ 41164729 -rw-rw-r--  1000   1000  32115992 31-Oct-2023 20:59 vpi-demos-2.3.9-aarch64-l4t.deb
+ 41163959 -rw-rw-r--  1000   1000 1505929477 31-Oct-2023 21:00 Tegra_Linux_Sample-Root-Filesystem_R35.4.1_aarch64.tbz2
+ 41197716 -rw-rw-r--  1000   1000 1504468160 31-Oct-2023 21:01 cuda-repo-l4t-11-4-local_11.4.19-1_arm64.deb
+ 41206732 -rw-rw-r--  1000   1000  38886912  7-Nov-2023 19:31 (위탁)안전한 귀가 서비스를 위한 스마트 드론 스카우트 응용 기술 연구_연차실적계획서_.hwp
+ 41234250 -rw-rw-r--  1000   1000    132718 13-Nov-2023 18:33 Visualization-of-simulated-UAVs-in-RViz.ppm
+ 41160464 -rw-rw-r--  1000   1000    501063 13-Nov-2023 20:20 56196_open3dmodel.com.rar
+ 42084339 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:24 56196_open3dmodel.com
+ 41202673 -rw-rw-r--  1000   1000  12045525 13-Nov-2023 21:48 571664.pdf
+ 41162849 -rw-rw-r--  1000   1000   1639280 28-Nov-2023 12:05 aerospace-2702828-peer-review-v1.pdf
+ 41197476 -rw-rw-r--  1000   1000       718 29-Nov-2023 15:23 aerospace-2702828 peer-review report due.ics
+ 41183169 -rw-r--r--  1000   1000    406511 19-Oct-2023 17:22 김강민202017_32989_1878845_2020110517 김강민 로봇운영체제 실습 과제 .pdf
+ 41183179 -rw-r--r--  1000   1000      1248 19-Oct-2023 17:22 김민재202045_32714_1877828_ros2번.py
+ 41164274 -rw-rw-r--  1000   1000     80886 31-Oct-2023 20:57 vpi-dev-2.3.9-cuda11-x86_64-linux.deb
+ 41213804 -rw-rw-r--  1000   1000   1034033  2-Oct-2023 00:07 Preprints202305.1067.v1.pdf
+ 41164304 -rw-rw-r--  1000   1000    874152 31-Oct-2023 20:57 vpi-python3.9-2.3.9-cuda11-x86_64-linux.deb
+ 41238565 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 MathWorks
+ 41164728 -rw-rw-r--  1000   1000  15797076 31-Oct-2023 20:59 vpi-samples-2.3.9-aarch64-l4t.deb
+ 41171994 -rw-rw-r--  1000   1000   1830879 20-Oct-2023 13:27 ROS_HW2 (4).pdf
+ 41183178 -rw-r--r--  1000   1000      1708 19-Oct-2023 17:22 김민재202045_32714_1877827_ros1번.py
+ 41164171 -rw-rw-r--  1000   1000   1826600 31-Oct-2023 20:57 nvidia-container-toolkit_1.11.0_rc.1-1_arm64.deb
+ 41288841 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:47 archive (3)
+ 41238529 drwxrwxr-x  1000   1000      4096 19-Oct-2023 17:22 1697703727_175____001-Assignment_2_submissions
+ 41955242 drwxrwxr-x  1000   1000      4096 27-Sep-2023 17:27 px4_typhoon_h480.v1i.yolov8
+ 41192331 -rw-rw-r--  1000   1000  15264330  3-Nov-2023 19:49 applsci-10-05064-v2 (1).pdf
+ 41163984 -rw-rw-r--  1000   1000 747069329 31-Oct-2023 20:59 Jetson_Linux_R35.4.1_aarch64.tbz2
+ 41171277 -rw-rw-r--  1000   1000  53345022 20-Oct-2023 19:29 신보사랑방_0910월 (2).pdf
+ 41183182 -rw-r--r--  1000   1000       930 19-Oct-2023 17:22 김민재202045_32714_1877830_ros4번.py
+ 41201373 -rw-rw-r--  1000   1000    306343 24-Oct-2023 16:59 FC6-6.pdf
+ 41183971 -rw-r--r--  1000   1000      2313 19-Oct-2023 17:22 이진한202031_33065_1846335_Hw_2_1-1.py
+ 41203751 -rw-rw-r--  1000   1000    230916  9-Oct-2023 15:02 수령증_thesis.pdf
+ 41183822 -rw-r--r--  1000   1000    265527 19-Oct-2023 17:22 윤기범202234_69553_1860215_로스_보고서.pdf
+ 41191868 -rw-rw-r--  1000   1000  10389512 27-Sep-2023 17:23 px4_typhoon_h480.v1i.yolov8.zip
+ 41183924 -rw-r--r--  1000   1000    359444 19-Oct-2023 17:22 이규민202238_70668_1851813_Python Assignment2 2022111338.pdf
+ 41171348 -rw-rw-r--  1000   1000    323573  9-Oct-2023 14:57 _Thesis__Flight_guidance_algorithm_based_on_gimbal_camera_information_for_tracking_and_striking_illega_drones.pdf
+ 41164139 -rw-rw-r--  1000   1000     22488 31-Oct-2023 20:57 libnvidia-container-tools_1.10.0-1_arm64.deb
+ 41238537 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:17 1697775416_704____001-Assignment_2_submissions
+ 41183175 -rw-r--r--  1000   1000    155163 19-Oct-2023 17:22 김민재202045_32714_1877826_2020112345김민재 로스파이썬 과제.pdf
+ 41207634 -rw-rw-r--  1000   1000      6426 31-Oct-2023 21:02 sdkml3_deepstream_63.json
+ 41185735 -rw-rw-r--  1000   1000   1830879 19-Oct-2023 17:32 ROS_HW2 (2).pdf
+ 41183988 -rw-r--r--  1000   1000      2561 19-Oct-2023 17:22 김영민202026_18668_1814349_ROS_HW2_python_code_KimYoungMin.zip
+ 41201580 -rw-rw-r--  1000   1000   5304045  3-Oct-2023 18:41 »êÇÐÇù·Â´Ü Annual_Report(ÇÑ±ÛÆÇ) Ver 2020.pdf
+ 41183195 -rw-r--r--  1000   1000       608 19-Oct-2023 17:22 송영우202017_32622_1869635_no1.py
+ 41183935 -rw-r--r--  1000   1000      4687 19-Oct-2023 17:22 이규민202238_70668_1851814_Python과제 code (2022111338 이규민).txt
+ 41158789 -rw-rw-r--  1000   1000   5296058  1-Oct-2023 17:33 ROS_05.pdf
+ 41183186 -rw-r--r--  1000   1000    671700 19-Oct-2023 17:22 송영우202017_32622_1869634_보고서.pdf
+ 41197727 -rw-rw-r--  1000   1000 2480087528 31-Oct-2023 21:02 cuda-repo-ubuntu2004-11-4-local_11.4.19-470.154-1_amd64.deb
+ 41162683 -rw-rw-r--  1000   1000   2784438  1-Oct-2023 21:53 drones-02-00034.pdf
+ 41238617 drwxrwxr-x  1000   1000      4096 31-Oct-2023 22:35 hwdata
+ 41223144 -rw-rw-r--  1000   1000  18108784 17-Oct-2023 17:22 MaSecureClient_noax_total.exe
+ 41164819 -rw-rw-r--  1000   1000      8148 19-Sep-2023 17:18 plot_functions.py
+ 41165133 -rw-rw-r--  1000   1000    112751  2-Oct-2023 22:53 test.png
+ 41182795 drwxrwxr-x  1000   1000      4096 23-Aug-2020 17:03 Nature
+ 41156933 -rw-rw-r--  1000   1000        68  7-Nov-2023 19:31 .~lock.(위탁)안전한 귀가 서비스를 위한 스마트 드론 스카우트 응용 기술 연구_연차실적계획서_.hwp#
+ 41163949 -rw-rw-r--  1000   1000  16893080 13-Nov-2023 20:22 92831_open3dmodel.com.rar
+ 41157040 -rw-rw-r--  1000   1000  16815356 13-Nov-2023 20:27 Garud-500 DIY Drone - 2453393.zip
+ 42086598 drwxrwxr-x  1000   1000      4096 13-Nov-2023 22:12 15526_123free3dmodels.com
+ 41183152 -rw-rw-r--  1000   1000   2565837 19-Oct-2023 17:22 1697703727_175____001-Assignment_2_submissions.zip
+ 41164114 -rw-rw-r--  1000   1000     42384 31-Oct-2023 20:57 libnvidia-container0_0.11.0+jetpack_arm64.deb
+ 41164104 -rw-rw-r--  1000   1000 691310698 31-Oct-2023 20:57 nv-tensorrt-local-repo-l4t-8.5.2-cuda-11.4_1.0-1_arm64.deb
+ 41215686 -rw-rw-r--  1000   1000  46275447 24-Sep-2023 19:59 Drones.v8-drone_aug3x.yolov8.zip
+ 41164645 -rw-rw-r--  1000   1000  51442406 31-Oct-2023 20:59 vpi-lib-2.3.9-aarch64-l4t.deb
+ 41157793 -rw-rw-r--  1000   1000      6162  4-Oct-2023 14:12 frgLangExemptReq.pdf
+ 41161377 -rw-rw-r--  1000   1000    140823 13-Nov-2023 22:11 15526_123free3dmodels.com.rar
+ 41195493 -rwxrwxrwx  1000   1000  55032961  3-Dec-2023 17:55 qt-unified-linux-x64-4.6.1-online.run
+ 41163969 -rw-rw-r--  1000   1000  59527259 31-Oct-2023 20:55 NVIDIA_Nsight_Perf_SDK_2023.3.1.tar.gz
+ 41161790 -rw-rw-r--  1000   1000    185936  4-Oct-2023 13:36 t.pdf
+ 41161316 -rw-rw-r--  1000   1000     57856  1-Oct-2023 20:52 ºÙÀÓ4_2021ÇÐ³âµµ 1ÇÐ±â »ê¾÷´ëÇÐ¿ø ÇÐÀ§³í¹® ÀÛ¼º ¹æ¹ý.hwp
+ 41191340 -rw-rw-r--  1000   1000 153480114  3-Nov-2023 19:49 978-3-319-70833-1.pdf
+ 41157361 -rw-rw-r--  1000   1000   5459746 19-Oct-2023 11:51 ROS_06.pdf
+ 41183825 -rw-r--r--  1000   1000       502 19-Oct-2023 17:22 윤기범202234_69553_1860216_hw1.py
+ 41183978 -rw-r--r--  1000   1000    942802 19-Oct-2023 17:22 이진한202031_33065_1846339_2020114631_이진한_코드 설명.pdf
+ 41191128 -rw-rw-r--  1000   1000   1830879  7-Oct-2023 19:03 ROS_HW2.pdf
+ 41164324 -rw-rw-r--  1000   1000  32112254 31-Oct-2023 20:57 vpi-demos-2.3.9-cuda11-x86_64-linux-ubuntu2004.deb
+ 41159386 -rw-rw-r--  1000   1000   5459746 19-Oct-2023 21:04 ROS_06 (1).pdf
+ 41157820 -rw-rw-r--  1000   1000  96683480 11-Sep-2023 17:24 google-chrome-stable_current_amd64.deb
+ 41182790 -rw-rw-r--  1000   1000  17228610 17-Sep-2023 17:01 Nature.zip
+ 41211190 -rw-rw-r--  1000   1000   1661859 20-Sep-2023 15:29 무인 항공기의 이동체 상부로의 영상 기반 자동 착륙 시스템.pdf
+ 41164692 -rw-rw-r--  1000   1000    775004 31-Oct-2023 20:59 vpi-python3.9-2.3.9-aarch64-l4t.deb
+ 41157646 -rw-rw-r--  1000   1000   5459746 19-Oct-2023 21:17 ROS_06 (2).pdf
+ 41164672 -rw-r--r--  1000   1000       275 24-Sep-2023 10:59 data.yaml
+ 41183975 -rw-r--r--  1000   1000      2137 19-Oct-2023 17:22 이진한202031_33065_1846337_Hw_2_3 (1)-1.py
+ 41160451 -rw-rw-r--  1000   1000         0 13-Nov-2023 22:10 drone.dae
+ 41192394 -rw-rw-r--  1000   1000     67072 20-Oct-2023 17:36 대학원 학위논문 심사관련 안내 사항.hwp
+ 41162191 -rw-rw-r--  1000   1000   2238281 13-Nov-2023 22:09 uploads_files_2602680_Drone.rar
+ 41214703 -rw-rw-r--  1000   1000      9889 20-Sep-2023 21:57 dynamic_obstacle_avoidance.py
+ 41164283 -rw-rw-r--  1000   1000    873314 31-Oct-2023 20:57 vpi-python3.8-2.3.9-cuda11-x86_64-linux.deb
+ 41162010 -rw-rw-r--  1000   1000   1639280 29-Nov-2023 15:23 aerospace-2702828-peer-review-v1 (1).pdf
+ 41183976 -rw-r--r--  1000   1000       438 19-Oct-2023 17:22 이진한202031_33065_1846338_Hw_2_4 (1)-1.py
+ 41164472 -rw-rw-r--  1000   1000  81804732 31-Oct-2023 20:58 nsight-compute-addon-l4t-2022.2.1_2022.2.1.6-1_all.deb
+ 41192932 -rw-rw-r--  1000   1000 203311955 21-Oct-2023 14:22 matlab_R2023b_glnxa64.zip
+ 41210242 -rw-rw-r--  1000   1000  53345022  3-Dec-2023 17:30 신보사랑방_0910월 (3).pdf
+ 41164060 -rw-rw-r--  1000   1000 947311548 31-Oct-2023 20:56 cuda-repo-cross-aarch64-ubuntu2004-11-4-local_11.4.19-1_all.deb
+ 41164225 -rw-rw-r--  1000   1000      5544 31-Oct-2023 20:57 nvidia-docker2_2.11.0-1_all.deb
+ 41183969 -rw-r--r--  1000   1000       604 19-Oct-2023 17:22 이규민202238_70668_1851818_ROS__HW4.py
+ 41183883 -rw-r--r--  1000   1000       693 19-Oct-2023 17:22 김준수201750_29150_1858809_2 2017116750 김준수.py
+ 41227698 -rw-rw-r--  1000   1000    287090 10-Oct-2023 00:19 thesis_hojunLee_논문표절예방프로그램 결과물.pdf
+ 41189979 -rw-rw-r--  1000   1000  39223147  3-Nov-2023 19:49 978-981-19-3951-8.pdf
+ 41164103 -rw-rw-r--  1000   1000  11278130 31-Oct-2023 20:58 OpenCV-4.5.4-8-g3e4c170df4-aarch64-libs.deb
+ 41161070 -rw-rw-r--  1000   1000   3943367  4-Dec-2023 23:58 1701701849_792____001-Assignment_2_submissions.zip
+ 41279759 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:58 1701701849_792____001-Assignment_2_submissions
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41162207
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/yolo_test
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41182345 -rw-rw-r--  1000   1000       226 17-Sep-2023 16:55 only_webcam.py
+ 41182260 -rw-rw-r--  1000   1000      2277 17-Sep-2023 16:55 yolov8_webcam.py
+ 41162201 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:56 yolo-Weights
+ 41184398 drwxrwxr-x  1000   1000      4096  1-Oct-2023 15:47 YOLO_seg
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+
+dir_partition inode=41943693
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+
+dir_partition inode=41944217
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script/ros_yolo_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 .
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 ..
+ 41944228 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:17 .git
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+
+dir_partition inode=41943711
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script/ros_image
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 .
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 ..
+ 41943712 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 .git
+ 41943817 -rw-rw-r--  1000   1000        15 18-Sep-2023 15:59 README.md
+ 41943818 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 __pycache__
+ 41943820 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 cfg
+ 41943823 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 data
+ 41943825 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 dataset
+ 41943828 -rw-rw-r--  1000   1000      6371 18-Sep-2023 15:59 image_test.py
+ 41943829 -rw-rw-r--  1000   1000       869 18-Sep-2023 17:08 only_image_show.py
+ 41943830 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 pretrained
+ 41943833 -rw-rw-r--  1000   1000      2099 18-Sep-2023 15:59 ros_image_yolov8.py
+ 41943834 -rw-rw-r--  1000   1000      2447 18-Sep-2023 15:59 utils.py
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+
+dir_partition inode=42033410
+ 2 P Linux filesys. data      1050624 1953523711 1952473088
+Directory /home/arrf/script/new_ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 .
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 ..
+ 41944320 -rw-rw-r--  1000   1000     15402 16-Dec-2023 20:28 center_of_image_pub.py
+ 41951648 -rw-rw-r--  1000   1000     17091 16-Dec-2023 20:25 detection_validation.py
+ 41951649 -rw-rw-r--  1000   1000     15520 16-Dec-2023 20:25 offboard_only_gimbal_final_origin.py
+ 41951650 -rw-rw-r--  1000   1000     15704 16-Dec-2023 20:27 offboard_only_gimbal_final.py
+ 41951651 -rw-rw-r--  1000   1000     14766 16-Dec-2023 20:26 offboard.py
+ 41951652 -rw-rw-r--  1000   1000      8617 16-Dec-2023 20:26 offboard_target.py
+ 41948805 -rw-rw-r--  1000   1000    144493 16-Dec-2023 20:36 testdisk.log
+Directory /home/arrf/script
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 .
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 ..
+ 41943711 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:59 ros_image
+ 41944217 drwxrwxr-x  1000   1000     12288 16-Dec-2023 19:54 ros_yolo_image
+ 42033410 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:31 new_ros_yolo_image
+Directory /home/arrf
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 .
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156611 -rw-r--r--  1000   1000       869 18-Sep-2023 15:37 .profile
+ 41156612 -rw-r--r--  1000   1000       220 29-Aug-2023 20:01 .bash_logout
+ 41156613 -rw-r--r--  1000   1000      4196 23-Sep-2023 17:46 .bashrc
+ 41156614 drwxr-xr-x  1000   1000      4096 17-Sep-2023 16:19 .local
+ 41156617 drwx------  1000   1000      4096  3-Dec-2023 21:47 .config
+ 41156624 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:06 .cache
+ 41156643 drwx------  1000   1000      4096 16-Dec-2023 20:16 .gnupg
+ 41156651 drwxr-xr-x  1000   1000      4096 30-Nov-2023 13:44 Desktop
+ 41156652 drwxr-xr-x  1000   1000     20480  5-Dec-2023 00:00 Downloads
+ 41156653 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Templates
+ 41156654 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Public
+ 41156655 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:16 Documents
+ 41156656 drwxr-xr-x  1000   1000      4096 30-Aug-2023 05:03 Music
+ 41156657 drwxr-xr-x  1000   1000      4096 22-Oct-2023 15:05 Pictures
+ 41156658 drwxr-xr-x  1000   1000      4096 23-Nov-2023 21:30 Videos
+ 41156857 drwx------  1000   1000      4096 30-Aug-2023 05:04 .ssh
+ 41156632 drwx------  1000   1000      4096 30-Aug-2023 05:04 .mozilla
+ 41198874 -rw-------  1000   1000     33108 16-Dec-2023 20:16 .bash_history
+ 41157070 -rw-r--r--  1000   1000         0 29-Aug-2023 20:13 .sudo_as_admin_successful
+ 41157878 drwx------  1000   1000      4096 22-Oct-2023 17:57 snap
+ 41158246 drwx------  1000   1000      4096 11-Sep-2023 17:25 .pki
+ 41181220 -rw-------  1000   1000       459  5-Dec-2023 00:00 .python_history
+ 41163321 -rw-rw-r--  1000   1000 3181876424 30-Sep-2022 03:33 cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb
+ 41162207 drwxrwxr-x  1000   1000      4096 17-Sep-2023 17:02 yolo_test
+ 41158054 drwxrwxr-x  1000   1000      4096 17-Sep-2023 16:55 .vscode
+ 41182647 -rw-r--r--  1000   1000      1435 17-Sep-2023 17:00 .labelmerc
+ 41287721 drwx------  1000   1000      4096 17-Sep-2023 17:17 .nv
+ 41681125 drwx------  1000   1000      4096 18-Sep-2023 14:57 .gnome
+ 41681219 drwxrwxr-x  1000   1000      4096 16-Dec-2023 19:09 .ros
+ 41215291 -rw-rw-r--  1000   1000      1244 18-Sep-2023 15:22 install_geographiclib_datasets.sh
+ 41215314 -rw-rw-r--  1000   1000       180 18-Sep-2023 15:22 .wget-hsts
+ 41681084 drwxrwxr-x  1000   1000      4096  5-Nov-2023 22:32 catkin_ws
+ 41680960 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 PX4-Autopilot
+ 41943381 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:49 .java
+ 41943518 drwxr--r--  1000   1000      4096 23-Sep-2023 16:19 .ignition
+ 41943577 drwxr--r--  1000   1000      4096 12-Nov-2023 15:24 .gazebo
+ 41943582 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:51 .sdformat
+ 41216015 -rwxrwxrwx  1000   1000 186118120 18-Sep-2023 15:54 QGroundControl.AppImage
+ 41943607 drwxrwxr-x  1000   1000      4096 18-Sep-2023 15:55 .icons
+ 41943693 drwxrwxr-x  1000   1000      4096 16-Dec-2023 20:24 script
+ 41944072 drwxrwxr-x  1000   1000      4096 18-Sep-2023 16:09 sitl_env
+ 41943678 drwxrwxr-x  1000   1000      4096 18-Sep-2023 17:35 .rviz
+ 41944653 drwxrwxr-x  1000   1000      4096 19-Sep-2023 17:25 etri
+ 41949281 drwxrwxr-x  1000   1000      4096 24-Nov-2023 20:30 .ssr
+ 41949695 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:35 MAVSDK-Python
+ 41950439 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .tilecache
+ 41951352 drwxrwxr-x  1000   1000      4096 23-Sep-2023 17:47 .mavproxy
+ 41951554 drwxrwxr-x  1000   1000      4096 24-Sep-2023 18:39 train_yolo
+ 41944434 drwxrwxr-x  1000   1000      4096 23-Oct-2023 09:14 merge_image
+ 41949193 drwxr-xr-x  1000   1000      4096 27-Sep-2023 17:55 .anydesk
+ 41238530 drwx------  1000   1000      4096 19-Oct-2023 21:13 .thunderbird
+ 41238538 drwxrwxr-x  1000   1000      4096 20-Oct-2023 13:18 homework
+ 41238615 drwxrwxr-x  1000   1000      4096 15-Dec-2023 12:00 .nvsdkm
+ 41255012 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 nvidia
+ 41158269 -rw-rw-r--  1000   1000     21575 16-Dec-2023 19:09 mav.parm
+ 41238559 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MathWorks
+ 41238563 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .matlab
+ 41320486 drwxrwxr-x  1000   1000      4096 21-Oct-2023 14:33 .MATLABConnector
+ 41238594 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 bin
+ 41202516 -rw-rw-r--  1000   1000     20991 21-Oct-2023 15:55 mav_2_1.parm
+ 41246730 drwxrwxr-x  1000   1000      4096 29-Nov-2023 15:13 matlab
+ 41201581 -rw-rw-r--  1000   1000  16008612 23-Oct-2023 09:14 merge_image.zip
+ 41255015 drwxrwxr-x  1000   1000      4096 31-Oct-2023 20:59 JetPack_5.1.2_Linux_JETSON_ORIN_NX_TARGETS
+ 41238636 drwxrwxr-x  1000   1000      4096 31-Oct-2023 21:30 JetPack_5.1.2_Linux
+ 41160569 -rw-rw-r--  1000   1000 166387712 16-Dec-2023 20:31 mav.tlog
+ 42081710 drwxrwxr-x  1000   1000      4096 10-Dec-2023 22:44 experiments
+ 41161162 -rw-rw-r--  1000   1000 140197888 16-Dec-2023 20:30 mav.tlog.raw
+ 42084340 drwxrwxr-x  1000   1000      4096 13-Nov-2023 20:31 rviz_markers
+ 42083119 drwxrwxr-x  1000   1000      4096 13-Nov-2023 10:10 img
+ 41185466 -rwxrwxrwx  1000   1000      1189 13-Nov-2023 18:45 simple_drone.urdf
+ 41198508 -rw-rw-r--  1000   1000      2400 13-Nov-2023 22:33 test.py
+ 41171789 -rwxrwxrwx  1000   1000   2622184 13-Nov-2023 20:31 drone600.stl
+ 41171938 -rw-rw-r--  1000   1000   3567108 13-Nov-2023 20:31 box.stl
+ 41193584 -rw-rw-r--  1000   1000       868 14-Nov-2023 13:45 java.log.14645
+ 41184727 -rw-rw-r--  1000   1000   6644786 14-Nov-2023 20:52 experiments.zip
+ 41202698 -rw-rw-r--  1000   1000     73411 14-Nov-2023 20:53 matlab.zip
+ 41197645 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:23 java.log.3761
+ 41203839 -rw-rw-r--  1000   1000      3972 16-Nov-2023 21:23 matlab_crash_dump.3761-1
+ 41204508 -rw-rw-r--  1000   1000       868 16-Nov-2023 21:41 java.log.5829
+ 41209699 -rw-rw-r--  1000   1000      5214 16-Nov-2023 21:41 matlab_crash_dump.5829-1
+ 41707309 drwxrwxr-x  1000   1000      4096 19-Nov-2023 21:40 pytest
+ 42084471 drwxrwxr-x  1000   1000      4096 16-Nov-2023 23:45 image
+ 41157349 -rw-rw-r--  1000   1000   8377832 18-Nov-2023 17:00 final_experiments.zip
+ 41492618 drwxr-xr-x  1000   1000      4096  3-Dec-2023 20:04 Qt
+ 41707424 drwxrwxr-x  1000   1000      4096 20-Nov-2023 13:53 newexperiments
+ 41245584 -rw-rw-r--  1000   1000   1255078 20-Nov-2023 16:55 newexperiments.zip
+ 41225640 -rw-rw-r--  1000   1000   1580331 20-Nov-2023 21:43 newexperiments2.zip
+ 41161480 -rw-rw-r--  1000   1000      3351  1-Dec-2023 17:43 java.log.42687
+ 41255055 drwxrwxr-x  1000   1000      4096  3-Dec-2023 18:51 .designer
+ 41255073 drwxrwxr-x  1000   1000      4096  3-Dec-2023 21:59 qgc_project
+ 41377944 drwxrwxr-x  1000   1000      4096  4-Dec-2023 23:59 assignment
+ 41157639 -rw-rw-r--  1000   1000      5296 16-Dec-2023 20:22 testdisk.log
+Directory /home
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+ 41156610 drwxr-xr-x  1000   1000      4096 16-Dec-2023 20:16 arrf
+Directory /
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 .
+       2 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 ..
+      11 drwx------     0      0     16384 29-Aug-2023 20:00 lost+found
+  524289 drwxr-xr-x     0      0      4096 13-Dec-2023 06:18 boot
+      12 -rw-------     0      0 2147483648 29-Aug-2023 20:00 swapfile
+ 53477377 drwxr-xr-x     0      0     12288 14-Dec-2023 06:57 etc
+ 13893633 drwxr-xr-x     0      0      4096  4-Oct-2023 14:01 media
+      13 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 bin
+ 37486593 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 dev
+ 41156609 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 home
+      14 lrwxrwxrwx     0      0         7 29-Aug-2023 20:00 lib
+      15 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib32
+      16 lrwxrwxrwx     0      0         9 29-Aug-2023 20:00 lib64
+      17 lrwxrwxrwx     0      0        10 29-Aug-2023 20:00 libx32
+ 42991617 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 mnt
+ 33292289 drwxr-xr-x     0      0      4096 18-Sep-2023 15:37 opt
+ 47185921 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 proc
+ 25427969 drwx------     0      0      4096 31-Oct-2023 21:24 root
+ 27787265 drwxr-xr-x     0      0      4096 29-Aug-2023 20:01 run
+      18 lrwxrwxrwx     0      0         8 29-Aug-2023 20:00 sbin
+ 40108033 drwxr-xr-x     0      0      4096 22-Oct-2023 17:57 snap
+ 33554433 drwxr-xr-x     0      0      4096 17-Mar-2023 00:37 srv
+ 19136513 drwxr-xr-x     0      0      4096 15-Apr-2020 20:09 sys
+ 45613057 drwxrwxrwt     0      0     94208 16-Dec-2023 20:32 tmp
+ 1572865 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 usr
+ 27262977 drwxr-xr-x     0      0      4096 31-Oct-2023 21:05 var
+ 24903681 drwxrwxr-x     0      0      4096 29-Aug-2023 20:01 cdrom
+SIGHUP detected! TestDisk has been killed.
